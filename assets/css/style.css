@@ -47,3 +47,35 @@ h1, h2 {
     color: blue;
     border-bottom: 1px solid #3a3a3a;
 }
+
+/*my-image*/
+#outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#my-image{
+    height: 500px;
+    width: 100%;
+    background: url('/assets/images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 20px;
+
+     /*animates zoom effect on loading page*/
+    animation-name : zoom-image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*create the level of zoom of my image*/
+@keyframes zoom-image {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
