@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 body{
     font-family: Edu NSW ACT Foundation, sans-serif;
     font-weight: 400;
@@ -21,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    text-transform: uppercase;
 }
 
 /*navigation links*/
@@ -48,34 +50,56 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*my-image*/
+/*my-image and image-text*/
 #outer {
     height: 400px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
-#my-image{
-    height: 500px;
+#image-text, #image-text h2{
+    color: red;
+
+}
+#my-image {
+    height: 380px;
     width: 100%;
     background: url('/assets/images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
     background-size: cover;
     position: absolute;
     margin-top: 20px;
 
-     /*animates zoom effect on loading page*/
+    /*animates zoom effect on loading page*/
     animation-name : zoom-image;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /*create the level of zoom of my image*/
-@keyframes zoom-image {
+/*@keyframes zoom-image {
     from {
         transform: scale(1);
     }
     to {
         transform: scale(1.1);
     }
-}
+}*/
 
+#image-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: right;
+    text-align: center;
+
+    width: 300px;
+    height: 200px;  
+    padding-top: 40px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+    background-color: rgb(60, 60, 60, .7);
+}
