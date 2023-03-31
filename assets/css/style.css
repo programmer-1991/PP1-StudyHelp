@@ -63,13 +63,12 @@ h1, h2 {
 
 #image-text, #image-text h2{
     color: red;
-
 }
 
 #my-image {
     height: 380px;
     width: 100%;
-    background: url('/assets/images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
+    background: url('../assets/images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
     background-size: cover;
     position: absolute;
 
@@ -102,8 +101,8 @@ h1, h2 {
     padding-top: 40px;
     padding-right: 10px;
     padding-left: 15px;
-    margin-top: 10px;
-    margin-right: 60px;
+    margin-top: 30px;
+    margin-right: 65px;
 
     background-color: rgb(60, 60, 60, .7);
 }
@@ -137,8 +136,14 @@ table {
     margin-top: 20px;
     margin-left: 20px;
 }
-
 /*sign-up*/
+#sign-up {
+    background-color: black;
+    color: white;
+}
+#sign-up h1{
+    color: white;
+}
 .container {
     height:400px;
     width: 100%;
