@@ -68,7 +68,7 @@ h1, h2 {
 #my-image {
     height: 380px;
     width: 100%;
-    background: url('../assets/images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
+    background: url('../images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
     background-size: cover;
     position: absolute;
 
