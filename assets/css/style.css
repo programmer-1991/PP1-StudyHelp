@@ -137,3 +137,9 @@ table {
     margin-top: 20px;
     margin-left: 20px;
 }
+
+/*sign-up*/
+.container {
+    height:400px;
+    width: 100%;
+}
