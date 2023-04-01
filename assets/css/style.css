@@ -47,7 +47,7 @@ h1, h2 {
     font-size: 280%;
     text-transform: uppercase;
     margin-left: 10px;
-    color: red;
+    color: #3a3a3a;
 }
 
 /*navigation links*/
@@ -181,7 +181,14 @@ table {
 
 /*footer: social links*/
 
-#social-media  {
-    background-color: #D2691E;
-    color: white;
+footer {
+    height: 150px;
+}
+.social{
+   text-align: center;
+   margin-top: 80px;
+}
+
+.social li {
+    display:inline;
 }
