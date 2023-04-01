@@ -183,12 +183,21 @@ table {
 
 footer {
     height: 150px;
+    background-color: grey;
+    margin-top: 50px;
 }
 .social{
    text-align: center;
-   margin-top: 80px;
+   margin-top: 70px;
+}
+
+.social > li {
+    display:inline;
 }
 
 .social li {
-    display:inline;
+    font-size: 170%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
