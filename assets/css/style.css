@@ -38,7 +38,7 @@ h1, h2 {
     font-size: 280%;
     text-transform: uppercase;
     margin-left: 10px;
-    color: inherit;
+    color: red;
 }
 
 /*navigation links*/
@@ -130,6 +130,7 @@ h1, h2 {
 
 #about-us p {
     color: black;
+    
 }
 #application {
     margin-top: 20px;
@@ -163,4 +164,15 @@ table {
     width: 100%;
 }
 
-/*contact us and social links*/
+/*contact us and*/
+ 
+#contact {
+    text-align: center;
+}
+
+/*social links*/
+
+#social-media  {
+    background-color: #D2691E;
+    color: white;
+}
