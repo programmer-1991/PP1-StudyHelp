@@ -166,6 +166,7 @@ table {
 
 /*sign-up*/
 #sign-up {
+    
     background-color: black;
     color: white;
 }
@@ -175,8 +176,15 @@ table {
 .container {
     /*responsive without specifying height*/
     width: 100%;
+    margin: auto;
+    
 }
 
+form label{
+    display: flex;
+    justify-content: center;
+}
+form
 /*contact us and*/
  
 #contact {
