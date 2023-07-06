@@ -43,11 +43,10 @@ body {
     justify-content: space-between;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: Alkatra, sans-serif;
     letter-spacing: 2px;
-    color: green;
+    color: #005C00;
 }
 
 #logo {
@@ -143,6 +142,9 @@ header a {
     padding: 1em;
 }
 
+#about-us h2 {
+    color: #008A00
+}
 .aligner {
     display: flex;
     align-items: center;
@@ -202,7 +204,7 @@ td {
 
 /*sign-up*/
 #signup-box {
-    color: green;
+    color: #00BD00;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -211,7 +213,9 @@ td {
     width: 100%;
     padding: 2rem;
 }
-
+#signup-box h2 {
+    color: #00BD00;
+}
 .row {
     flex-direction: row;
     justify-content: center;
@@ -256,48 +260,53 @@ button {
     font-size: 1em;
 }
 
-input, button {
+input,
+button {
     border-radius: .8em;
 }
 
 /*contact us and*/
- 
+
 #contact {
     text-align: center;
     padding: 1em;
 }
-#contact h2{
+
+#contact h2 {
     line-height: 2em;
 }
+
 .bold {
     font-weight: bold;
 }
 
-#contact > div {
+#contact>div {
     padding: 1.5em;
 }
-/*footer: social links*/
 
+/*footer: social links*/
 footer {
-    height: 150px;
-    background-color: grey;
-    margin-top: 50px;
+    /*height: 150px;*/
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: green;
 }
 
 .social {
     text-align: center;
-    margin-top: 70px;
-}
-
-.social>li {
-    display: inline;
 }
 
 .social li {
     font-size: 170%;
-    margin: 1%;
-    padding: 5%;
-    color: white;
+    margin: 0;
+    padding: 0 0;
+    color: #3a3a3a;
+    margin: 0 .5em 0 .5em;
+    display: inline;
 }
 
 /*media queries*/
@@ -324,7 +333,8 @@ footer {
         width: 100%;
         text-align: center;
     }
+
     form div {
         flex-direction: column;
-       }
+    }
 }
