@@ -260,11 +260,13 @@ button {
     font-size: 1em;
 }
 
-input,
-button {
+input, button {
     border-radius: .8em;
 }
-
+button:hover {
+    background-color: #006100;
+    color: white;
+}
 /*contact us and*/
 
 #contact {
