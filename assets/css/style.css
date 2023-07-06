@@ -169,12 +169,12 @@ form div {
 }
 
 #application {
-    margin-top: 20px;
     color: black;
 }
 
 .center {
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .space {
@@ -189,7 +189,6 @@ td {
 
 table {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 th {
