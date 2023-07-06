@@ -7,36 +7,41 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size:20px;
+body {
+    font-size: 20px;
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
     color: black;
 
 }
 
-@media screen and (max-width: 950px){
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-/*feedback*/
-#submission{
+/*signup feedback*/
+#submission {
     background-color: black;
     height: 100vh;
     width: 100vw;
 }
 
-#submission h1{
+#submission h1 {
     text-align: center;
     color: white;
 }
+/**/ 
+.aligner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+}
 
 /*headings and logo*/
+
+.header-spacing {
+    justify-content: space-between;
+}
+
 h1, h2 {
     font-family: Alkatra, sans-serif;
     letter-spacing: 2px;
@@ -44,37 +49,36 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
-    font-size: 280%;
+    font-size: 240%;
     text-transform: uppercase;
     margin-left: 10px;
     color: black;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /*navigation links*/
-#menu, #logo {
-    line-height: 75px;
-}
 #menu {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
     font-size: 110%;
     letter-spacing: 2px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 75px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
+    gap: 2em;
+    flex-direction: row-reverse;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 #menu a:hover {
     color: blue;
     border-bottom: 1px solid black;
 }
+
 
 /*my-image and image-text*/
 #outer {
@@ -84,7 +88,8 @@ h1, h2 {
     position: relative;
 }
 
-#image-text, #image-text h2{
+#image-text,
+#image-text h2 {
     color: white;
 }
 
@@ -96,7 +101,7 @@ h1, h2 {
     position: absolute;
 
     /*animates zoom effect on loading page*/
-    animation-name : zoom-image;
+    animation-name: zoom-image;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -106,6 +111,7 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -120,33 +126,35 @@ h1, h2 {
     text-align: center;
 
     width: 250px;
-    height: 150px;  
+    height: 150px;
     padding-top: 40px;
     padding-right: 10px;
     padding-left: 15px;
     margin-top: 30px;
     margin-right: 65px;
 
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 /*about us*/
 #about-us {
     /*responsive when not specify height*/
-    width:100%;
+    width: 100%;
     background-color: whitesmoke;
     font-size: 25px;
 }
 
-#about-us  p {
+#about-us p {
     color: black;
     font-weight: 600;
-    
+
 }
+
 #application {
     margin-top: 20px;
     color: black;
 }
+
 .center {
     text-align: center;
 }
@@ -155,9 +163,12 @@ h1, h2 {
     padding-left: 25px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid;
-  }
+}
+
 table {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -172,32 +183,33 @@ table {
     align-items: center;
     background-color: black;
     margin: auto;
-    width:100%;
+    width: 100%;
 }
 
 form {
     width: 100%;
 }
 
-form input{
+form input {
     display: flex;
     align-items: center;
     height: 40px;
     margin-top: 15px;
-    
+
     width: 50%;
 }
-form label{
+
+form label {
     margin-left: 150px;
 }
 
-#signup-box h1{
+#signup-box h1 {
     color: green;
     text-align: center;
 }
 
 /*contact us and*/
- 
+
 #contact {
     text-align: center;
 }
@@ -210,13 +222,13 @@ footer {
     margin-top: 50px;
 }
 
-.social{
-   text-align: center;
-   margin-top: 70px;
+.social {
+    text-align: center;
+    margin-top: 70px;
 }
 
-.social > li {
-    display:inline;
+.social>li {
+    display: inline;
 }
 
 .social li {
@@ -224,4 +236,28 @@ footer {
     margin: 1%;
     padding: 5%;
     color: white;
+}
+
+/*media queries*/
+@media screen and (max-width: 450px){
+    /*make the content vertically aligned on mobile screen*/
+    .aligner{
+        flex-direction: column;
+    }   
+    
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 2em;
+    }
+    
+    #menu li {
+        margin-right: .5em;
+    }
+   #logo {
+    font-size: 220%;
+    width: 100%;
+    text-align: center;
+   }
 }
