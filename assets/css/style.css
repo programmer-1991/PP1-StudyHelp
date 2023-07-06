@@ -26,7 +26,8 @@ body {
     text-align: center;
     color: white;
 }
-/**/ 
+
+/**/
 .aligner {
     display: flex;
     flex-direction: row;
@@ -42,7 +43,8 @@ body {
     justify-content: space-between;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Alkatra, sans-serif;
     letter-spacing: 2px;
     color: green;
@@ -88,7 +90,8 @@ header a {
     position: relative;
 }
 
-#image-text h2, #image-text h3 {
+#image-text h2,
+#image-text h3 {
     color: white;
 }
 
@@ -137,6 +140,24 @@ header a {
     width: 100%;
     background-color: whitesmoke;
     font-size: 25px;
+    padding: 1em;
+}
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.header-spacing {
+    justify-content: space-between;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #about-us p {
@@ -158,18 +179,23 @@ header a {
     padding-left: 25px;
 }
 
-table,
-th,
-td {
+table,th,td {
     border: 1px solid;
 }
 
 table {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 350px;
-    float: center;
 }
+
+th {
+    padding: .7em;
+}
+
+td {
+    padding: .5em;
+}
+
 
 /*sign-up*/
 #signup-box {
@@ -234,25 +260,27 @@ footer {
 }
 
 /*media queries*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
+
     /*make the content vertically aligned on mobile screen*/
-    .aligner{
+    .aligner {
         flex-direction: column;
-    }   
-    
+    }
+
     #menu {
         flex-direction: column;
         align-items: center;
         width: 100%;
         padding-bottom: 2em;
     }
-    
+
     #menu li {
         margin-right: .5em;
     }
-   #logo {
-    font-size: 220%;
-    width: 100%;
-    text-align: center;
-   }
+
+    #logo {
+        font-size: 220%;
+        width: 100%;
+        text-align: center;
+    }
 }
