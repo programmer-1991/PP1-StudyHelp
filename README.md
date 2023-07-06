@@ -1,23 +1,20 @@
 # Studyhelp:
 
-My site is called StudyHelp and it is a company with paid services that is available to all students from all ages and levels adults, children, men, women. It's purpose is to make it easier for students that are facing difficulties and struggles in their studies and need extra help. 
-In my project i used different coulours and the love running project inspired me in some way. I used black, red, white and charcoal which creates easier to read text while still giving enough contrast with background to be read by users with poor eyesight. 
+StudyHelp and it is a company with paid services that is targeted to students with different age groups and levels. Its purpose is to make it easier for students that are facing difficulties and struggles in their studies and need extra help. 
+The website uses three colours black, green and white which creates easy to read text while still giving enough contrast with background to be read by users. Users of this website will be able to find all the information they need to know about StudyHelp: services, prices, contact information and a signup form. 
 
 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup]()
 
 ## Features 
 
-
-### Existing Features
-
 - __Navigation Bar__
 
-  - 
-  -  
+  - Featured at the top of the page, the naviagation shows the company name in the left corner: STUDYHELP that links to the top of the page.
+  - The other navigation links are to the right: About us, Signup and Contact us which links to different sections of information easy to find.
+  - The navigation clearly tells the user the name of the company and website and makes the different sections of information easy to find.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/header.png)
 
 - __The header__
 
