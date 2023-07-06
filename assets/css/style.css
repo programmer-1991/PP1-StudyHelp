@@ -179,7 +179,9 @@ form div {
     padding-left: 25px;
 }
 
-table,th,td {
+table,
+th,
+td {
     border: 1px solid;
 }
 
@@ -197,44 +199,83 @@ td {
 }
 
 
+
 /*sign-up*/
 #signup-box {
     color: green;
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-color: black;
     margin: auto;
     width: 100%;
+    padding: 2rem;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
-form input {
+form div {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    height: 40px;
-    margin-top: 15px;
-
-    width: 50%;
+    justify-content: center;
+    width: 100%;
+    margin-top: .7rem;
+    gap: .5em;
 }
 
-form label {
-    margin-left: 150px;
+label {
+    font-weight: bolder;
+    width: 5em;
+
 }
 
-#signup-box h1 {
-    color: green;
-    text-align: center;
+input {
+    flex-grow: 1;
+    max-width: 12em;
+    min-width: 6em;
+    padding: .7em;
+    font-size: 1em;
+}
+
+button {
+    font-weight: bolder;
+    padding: .8em;
+    font-size: 1em;
+}
+
+input, button {
+    border-radius: .8em;
 }
 
 /*contact us and*/
-
+ 
 #contact {
     text-align: center;
+    padding: 1em;
+}
+#contact h2{
+    line-height: 2em;
+}
+.bold {
+    font-weight: bold;
 }
 
+#contact > div {
+    padding: 1.5em;
+}
 /*footer: social links*/
 
 footer {
@@ -283,4 +324,7 @@ footer {
         width: 100%;
         text-align: center;
     }
+    form div {
+        flex-direction: column;
+       }
 }
