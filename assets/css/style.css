@@ -82,19 +82,18 @@ header a {
 
 /*my-image and image-text*/
 #outer {
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#image-text,
-#image-text h2 {
+#image-text h2, #image-text h3 {
     color: white;
 }
 
 #my-image {
-    height: 380px;
+    height: 500px;
     width: 100%;
     background: url('../images/pexels-andrea-piacquadio-3769981.jpg') no-repeat center center;
     background-size: cover;
@@ -124,16 +123,12 @@ header a {
     letter-spacing: 4px;
     float: right;
     text-align: center;
-
-    width: 250px;
-    height: 150px;
-    padding-top: 40px;
-    padding-right: 10px;
-    padding-left: 15px;
+    width: min-content;
+    padding: 1em;
     margin-top: 30px;
     margin-right: 65px;
-
-    background-color: rgb(0, 0, 0, 0.6);
+    margin-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /*about us*/
