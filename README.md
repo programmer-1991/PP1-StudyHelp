@@ -4,7 +4,7 @@ StudyHelp and it is a company with paid services that is targeted to students wi
 The website uses three colours black, green and white which creates easy to read text while still giving enough contrast with background to be read by users. Users of this website will be able to find all the information they need to know about StudyHelp: services, prices, contact information and a signup form. 
 
 
-![Responsice Mockup]()
+![Responsice Mockup](/assets/images/responsive.png)
 
 ## Features 
 
@@ -31,10 +31,10 @@ The website uses three colours black, green and white which creates easy to read
 
 - __Sign up section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times]()
+  - The sign up section has a form to collect details so the user can sign up to Studyhelp.  
+  - The form collects the user's first and last name, an email adress and creates a password.
+  - The sign up form is valuable to the user as it gives them the ability to sign up to join Studyhelp.The sign up form has two buttons a Signup button and a Reset button.
+![Meetup Times](assets/images/sign-up.png)
 
 - __Contact us section__ 
 
