@@ -34,19 +34,17 @@ The website uses three colours black, green and white which creates easy to read
   - The sign up section has a form to collect details so the user can sign up to Studyhelp.  
   - The form collects the user's first and last name, an email adress and creates a password.
   - The sign up form is valuable to the user as it gives them the ability to sign up to join Studyhelp.The sign up form has two buttons a Signup button and a Reset button.
+
 ![Meetup Times](assets/images/sign-up.png)
 
 - __Contact us section__ 
 
 - The contact section encourages users to get in contact and provides a phone number, email adress and street adress where they can be found. 
 - The contact section includes social media icons so users can find Studyhelp on facebook, twitter and instagram.
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+- Thee contact section is valuable to the user as it gives them the ability to find and contact Studyhelp if they need to.
 
+![contact us](assets/images/contact-us.png)
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
