@@ -39,16 +39,12 @@ The website uses three colours black, green and white which creates easy to read
 
 - __Contact us section__ 
 
-- The contact section encourages users to get in contact and provides a phone number, email adress and street adress where they can be found. 
-- The contact section includes social media icons so users can find Studyhelp on facebook, twitter and instagram.
-- Thee contact section is valuable to the user as it gives them the ability to find and contact Studyhelp if they need to.
+  - The contact section encourages users to get in contact and provides a phone number, email adress and street adress where they can be found. 
+  - The contact section includes social media icons so users can find Studyhelp on facebook, twitter and instagram.
+  - Thee contact section is valuable to the user as it gives them the ability to find and contact Studyhelp if they need to.
 
 ![contact us](assets/images/contact-us.png)
 
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 - I tested that this page works in different browsers: Chrome, Firefox, Safari.
@@ -60,9 +56,14 @@ The website uses three colours black, green and white which creates easy to read
 ### bugs
 
 **solved bugs**
-- refresh meta tag give wrong redirection
-- use flexbox instead of float: bad postioning with float and flexbox make it easier and more flexible
 
+- The homepage was refreshing every 10 seconds and that made the form wipes the inputs before the user can submit. And the was because of the meta refresh redirect. I moved it from the index.html file to the signup.html file. 
+
+- At first i used float in my project and it gave me a bad positioning when using it and the content in every section was not aligned and put the way i intended to. Understanding and using flexbox made it a lot easier and gave me more flexibility.. 
+
+**Unfixed Bugs**
+
+- no bugs unfixed 
 
 ### Validator Testing 
 
@@ -75,10 +76,6 @@ The website uses three colours black, green and white which creates easy to read
   - I confirmed that the colors and fonts chosen are easy to read and accessible by runnig it through lighthouse in devtools
   ![light house validator](assets/images/light-house.png)
 
-### Unfixed Bugs
-
-no bugs unfixed 
-
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -89,15 +86,10 @@ no bugs unfixed
 The live link can be found here - [STUDDYHELP](https://programmer-1991.github.io/PP1-StudyHelp/) 
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Credits
 
 ### Content 
 
-- Instructions on how to implement form validation on the Sign Up page was taken from [YouTube](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The code to make social media links was taken from the [love running](https://github.com/Code-Institute-Org/love-running-2.0) Project.
 
