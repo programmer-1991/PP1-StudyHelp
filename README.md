@@ -38,7 +38,8 @@ The website uses three colours black, green and white which creates easy to read
 
 - __Contact us section__ 
 
-
+- The contact section encourages users to get in contact and provides a phone number, email adress and street adress where they can be found. 
+- The contact section includes social media icons so users can find Studyhelp on facebook, twitter and instagram.
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 
