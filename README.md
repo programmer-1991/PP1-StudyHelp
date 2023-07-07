@@ -71,6 +71,10 @@ The website uses three colours black, green and white which creates easy to read
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprogrammer-1991.github.io%2FPP1-StudyHelp%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
   - test with light house
+- Accessibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by runnig it through lighthouse in devtools
+  ![light house validator](assets/images/light-house.png)
+   
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
