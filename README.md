@@ -52,7 +52,10 @@ The website uses three colours black, green and white which creates easy to read
 
 ## Testing 
 - I tested that this page works in different browsers: Chrome, Firefox, Safari.
-- 
+- I confirm that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the navigation, header,abou us sign up and contact text are all readable and easy to understand.
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field and the sign up and reset works with no issues.
+
 
 ### bugs
 
