@@ -14,21 +14,19 @@ The website uses three colours black, green and white which creates easy to read
   - The other navigation links are to the right: About us, Signup and Contact us which links to different sections of information easy to find.
   - The navigation clearly tells the user the name of the company and website and makes the different sections of information easy to find.
 
-![Nav Bar](assets/images/header.png)
+![Nav Bar](assets/images/navigation.png)
 
 - __The header__
+  - The header shows the name of the company using the white color for text overlay.
+  - The section helps the user to understand the service that Studyhelp offers.
 
-  -
-  - 
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/header.png)
 
 - __About us section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](assets/images/About-us.png)
 
 - __Sign up section__
 
