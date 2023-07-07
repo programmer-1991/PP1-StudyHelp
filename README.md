@@ -74,14 +74,12 @@ The website uses three colours black, green and white which creates easy to read
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by runnig it through lighthouse in devtools
   ![light house validator](assets/images/light-house.png)
-   
+
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+no bugs unfixed 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -101,8 +99,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 - Instructions on how to implement form validation on the Sign Up page was taken from [YouTube](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The code to make social media links was taken from the [love running](https://github.com/Code-Institute-Org/love-running-2.0) Project.
 
 ### Media
 
 - The image in the header is taken from [Pexels](https://www.pexels.com/)
-- The images used for the gallery page were taken from this other open source site
